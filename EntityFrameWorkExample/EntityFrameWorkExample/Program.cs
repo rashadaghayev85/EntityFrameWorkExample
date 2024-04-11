@@ -38,16 +38,16 @@ SettingController settingController = new SettingController();
 
 
 CityController cityController = new CityController();
-//cityController.GetAllByCountryId();
-//cityController.GetAllAsync();
-//cityController.CreateAsync();   
-//cityController.DeleteAsync();
-//cityController.GetAllAsync();
-//cityController.GetByIdAsync();
+//await cityController.GetAllByCountryId();
+//await cityController.GetAllAsync();
+//await cityController.CreateAsync();   
+// await cityController.DeleteAsync();
+//await cityController.GetAllAsync();
+//await cityController.GetByIdAsync();
 
 
 CountryController countryController = new CountryController();  
-//countryController.GetByIdAsync();
-countryController.GetAllAsync();
-//countryController.DeleteAsync();
-//countryController.CreateAsync();
+//await countryController.GetByIdAsync();
+//await countryController.GetAllAsync();
+//awaitcountryController.DeleteAsync();
+//await countryController.CreateAsync();
